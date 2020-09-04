@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis_day01_03_annotation/mybatis_day01_03_annotation.iml" filepath="$PROJECT_DIR$/mybatis_day01_03_annotation/mybatis_day01_03_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_day01_04_annotation/mybatis_day01_04_annotation.iml" filepath="$PROJECT_DIR$/mybatis_day01_04_annotation/mybatis_day01_04_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisday02_dao_crud/mybatisday02_dao_crud.iml" filepath="$PROJECT_DIR$/mybatisday02_dao_crud/mybatisday02_dao_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisday02_dao_crud_bieming/mybatisday02_dao_crud_bieming.iml" filepath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/mybatisday02_dao_crud_bieming.iml" />
     </modules>
   </component>
 </project>

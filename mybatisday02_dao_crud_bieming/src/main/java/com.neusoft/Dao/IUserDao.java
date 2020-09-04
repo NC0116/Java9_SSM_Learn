@@ -28,4 +28,7 @@ public interface IUserDao {
    //查询总记录数
    int findCount();
 
+   //
+   List<User> findByCondition(User user);
+
 }

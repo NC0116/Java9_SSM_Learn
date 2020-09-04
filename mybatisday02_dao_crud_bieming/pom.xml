@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.neusoft</groupId>
-    <artifactId>mybatisday02_dao_crud</artifactId>
+    <artifactId>mybatisday02_dao_crud_bieming</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -64,6 +64,7 @@
             </resource>
         </resources>
     </build>
+
 
 
 </project>

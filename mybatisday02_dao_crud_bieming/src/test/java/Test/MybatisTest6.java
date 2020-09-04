@@ -1,7 +1,7 @@
-package com.neusoft.Test;
+package Test;
 
-import com.neusoft.Dao.IUserDao;
-import com.neusoft.domain.User;
+import com.neusoft.Dao.DeptDao;
+import com.neusoft.domain.Dept;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -9,15 +9,13 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.testng.annotations.AfterTest;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.List;
 
 
-public class MybatisTest5 {
+public class MybatisTest6 {
 //    @Test
 //    public void  test5() throws IOException {
 //        //读取配置文件
@@ -40,7 +38,7 @@ public class MybatisTest5 {
 
     private  InputStream in;
     private  SqlSession sqlSession;
-    private  IUserDao userDao;
+    private  DeptDao deptDao;
     // 在测试方法之前执行
     @Before
     public void init() throws IOException {
@@ -52,7 +50,7 @@ public class MybatisTest5 {
         // 3. 使用 工厂生产的 SqlSession对象
         sqlSession = factory.openSession();
         // 4. 使用SqlSession 创建Dao 接口 的代理对象
-        userDao = sqlSession.getMapper(IUserDao.class);
+        deptDao = sqlSession.getMapper(DeptDao.class);
     }
     @After
     public void destroy() throws IOException {
@@ -63,58 +61,55 @@ public class MybatisTest5 {
     }
     @Test
     public void testFindAll(){
-        List<User> users = userDao.findAll();
-        for (User user : users){
-            System.out.println(user);
+        List<Dept> depts = deptDao.findAll();
+        for (Dept dept : depts){
+            System.out.println(dept);
         }
     }
 
     @Test
     public void testFindOne(){
-        User user = userDao.findById(45);
-        System.out.println(user);
+        Dept byDept = deptDao.findByDept(30);
+        System.out.println(byDept);
 
     }
 
     @Test
-    public void testSave(){
-        User user = new User();
-        user.setuserName("李白");
-        user.setBirthday(new Date());
-        user.setAddress("葫芦岛");
-        user.setSex("男");
-        int i = userDao.saveUser(user);
+    public void testSave(){//TODO
+        Dept dept = new Dept();
+        dept.setDname("张三");
+        dept.setLoc("葫芦岛");
+        int i = deptDao.saveDept(dept);
         System.out.println(i);
+
     }
 
     @Test
     public void testUpdate(){
-        User user = new User();
-        user.setId(50);
-        user.setuserName("张三");
-        user.setBirthday(new Date());
-        user.setAddress("兴城");
-        user.setSex("女");
-        int i = userDao.updateUser(user);
+        Dept dept = new Dept();
+        dept.setDeptno(70);
+        dept.setDname("张三");
+        dept.setLoc("葫芦岛");
+        int i = deptDao.updateDept(dept);
         System.out.println(i);
 
     }
     @Test
     public void testDelete(){
-        int i = userDao.deleteUser(50);
+        int i = deptDao.deleteDept(70);
         System.out.println(i);
     }
 
     @Test
     public void testFindByName(){
-        List<User> users = userDao.findByName("%张%");
-        for (User user:users){
-            System.out.println(user);
+        List<Dept> depts = deptDao.findByName("%张%");
+        for (Dept dept : depts){
+            System.out.println(dept);
         }
     }
     @Test
     public void testFindCount(){
-        int count = userDao.findCount();
+        int count = deptDao.findCount();
         System.out.println(count);
     }
 

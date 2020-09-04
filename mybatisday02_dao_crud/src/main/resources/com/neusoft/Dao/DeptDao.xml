@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.Dao.DeptDao">
+<!--    配置查询所有用户的sql-->
+    <select id="findAll" resultType="com.neusoft.domain.Dept">
+        select * from dept;
+    </select>
+
+    <select id="findByDept" parameterType="Integer" resultType="com.neusoft.domain.Dept">
+        select * from dept where deptno=#{deptno} ;
+    </select>
+
+    <insert id="saveDept" parameterType="com.neusoft.domain.Dept"  >
+        <!--    配置保存时获取插入id-->
+
+        <selectKey keyColumn="DEPTNO" keyProperty="DEPTNO" resultType="int">
+            select last_insert_DEPTNO();
+        </selectKey>
+        insert into dept(dname,loc) values(#{dname},#{loc});
+    </insert>
+
+<!--    更新用户-->
+    <update id="updateDept" parameterType="com.neusoft.domain.Dept" >
+        update dept set dname=#{dname},loc=#{loc} where deptno=#{deptno};
+    </update>
+
+<!--    删除用户-->
+    <delete id="deleteDept" parameterType="java.lang.Integer"  >
+      delete from dept where deptno=#{deptno};
+    </delete>
+
+<!--    //根据姓名模糊查询-->
+    <select id="findByName" parameterType="String" resultType="com.neusoft.domain.Dept">
+        select * from dept where dname like #{dname};
+    </select>
+
+<!--    //查询总记录数-->
+    <select id="findCount" resultType="Integer">
+        select count(*) from dept;
+    </select>
+</mapper>
+<!--持久层的映射文件-->

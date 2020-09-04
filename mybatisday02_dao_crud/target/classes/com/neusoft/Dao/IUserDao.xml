@@ -11,5 +11,33 @@
     <select id="findById" parameterType="INT" resultType="com.neusoft.domain.User">
         select * from user where id=#{uid} ;
     </select>
+
+    <insert id="saveUser" parameterType="com.neusoft.domain.User"  >
+        <!--    配置保存时获取插入id-->
+        <selectKey keyColumn="id" keyProperty="id" resultType="int">
+            select last_insert_id();
+        </selectKey>
+        insert into user (username,birthday,address,sex) values(#{username},#{birthday},#{address},#{sex});
+    </insert>
+
+<!--    更新用户-->
+    <update id="updateUser" parameterType="com.neusoft.domain.User" >
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id=#{id};
+    </update>
+
+<!--    删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer"  >
+      delete from user where id=#{id};
+    </delete>
+
+<!--    //根据姓名模糊查询-->
+    <select id="findByName" parameterType="String" resultType="com.neusoft.domain.User">
+        select * from user where username like #{username};
+    </select>
+
+<!--    //查询总记录数-->
+    <select id="findCount" resultType="Integer">
+        select count(*) from user;
+    </select>
 </mapper>
 <!--持久层的映射文件-->

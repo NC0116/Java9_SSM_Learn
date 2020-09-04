@@ -1,4 +1,4 @@
-package com.neusoft.Test;
+package Test;
 
 import com.neusoft.Dao.IUserDao;
 import com.neusoft.domain.User;
@@ -9,7 +9,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.testng.annotations.AfterTest;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -79,29 +78,31 @@ public class MybatisTest5 {
     @Test
     public void testSave(){
         User user = new User();
-        user.setuserName("李白");
-        user.setBirthday(new Date());
-        user.setAddress("葫芦岛");
-        user.setSex("男");
+        user.setUserName("王五");
+        user.setUserBirthday(new Date());
+        user.setUserAddress("葫芦岛");
+        user.setUserSex("女");
         int i = userDao.saveUser(user);
         System.out.println(i);
+        System.out.println(user.getUserId());
+
     }
 
     @Test
     public void testUpdate(){
         User user = new User();
-        user.setId(50);
-        user.setuserName("张三");
-        user.setBirthday(new Date());
-        user.setAddress("兴城");
-        user.setSex("女");
-        int i = userDao.updateUser(user);
+        user.setUserId(50);
+        user.setUserName("王五");
+        user.setUserBirthday(new Date());
+        user.setUserAddress("葫芦岛");
+        user.setUserSex("女");
+        int i = userDao.saveUser(user);
         System.out.println(i);
 
     }
     @Test
     public void testDelete(){
-        int i = userDao.deleteUser(50);
+        int i = userDao.deleteUser(49);
         System.out.println(i);
     }
 
