@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day01_01/mybatis_day01_01.iml" filepath="$PROJECT_DIR$/mybatis_day01_01/mybatis_day01_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day01_02_annotation/mybatis_day01_02_annotation.iml" filepath="$PROJECT_DIR$/mybatis_day01_02_annotation/mybatis_day01_02_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day01_03_annotation/mybatis_day01_03_annotation.iml" filepath="$PROJECT_DIR$/mybatis_day01_03_annotation/mybatis_day01_03_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day01_04_annotation/mybatis_day01_04_annotation.iml" filepath="$PROJECT_DIR$/mybatis_day01_04_annotation/mybatis_day01_04_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisday02_dao_crud/mybatisday02_dao_crud.iml" filepath="$PROJECT_DIR$/mybatisday02_dao_crud/mybatisday02_dao_crud.iml" />
+    </modules>
+  </component>
+</project>

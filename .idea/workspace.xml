@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4c84084-1f3f-4bd3-aa9d-018124b45d76" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="XSLT Stylesheet" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gyxz2GvgZWhQjL1wimxk8nXogn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday02_dao_crud/src/main/resources/com/neusoft/Dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neusoft.Test" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Java9_SSM_Learn\mybatisday02_dao_crud\src\main\resources\com\neusoft\Dao" />
+      <recent name="D:\JAVA\Java9_SSM_Learn\mybatisday02_dao_crud\src\test\java" />
+      <recent name="D:\JAVA\Java9_SSM_Learn\mybatisday02_dao_crud\src\main\resources" />
+      <recent name="D:\JAVA\Java9_SSM_Learn\mybatisday02_dao_crud\src\main\java" />
+      <recent name="D:\JAVA\Java9_SSM_Learn\mybatis_day01_03_annotation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest5">
+    <configuration name="MybatisTest3.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_day01_03_annotation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest3" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Test.MybatisTest5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest5.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Test.MybatisTest5" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Test.MybatisTest5" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest5.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Test.MybatisTest5" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest5" />
+        <item itemvalue="JUnit.MybatisTest5.test5" />
+        <item itemvalue="TestNG.MybatisTest5" />
+        <item itemvalue="TestNG.MybatisTest5.test5" />
+        <item itemvalue="JUnit.MybatisTest3.test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4c84084-1f3f-4bd3-aa9d-018124b45d76" name="Default Changelist" comment="" />
+      <created>1599100891926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599100891926</updated>
+      <workItem from="1599100898072" duration="18705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1599121658739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599121658739" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599122800440">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599122800440" />
+    <state x="419" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599117292707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="419" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599117292707" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1599101374371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599101374371" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599121428804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599121428804" />
+    <state x="462" y="122" key="FileChooserDialogImpl" timestamp="1599121177357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599121177356" />
+    <state width="1323" height="354" key="GridCell.Tab.0.bottom" timestamp="1599140176646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="354" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599140176646" />
+    <state width="1323" height="354" key="GridCell.Tab.0.center" timestamp="1599140176646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="354" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599140176646" />
+    <state width="1323" height="354" key="GridCell.Tab.0.left" timestamp="1599140176646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="354" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599140176646" />
+    <state width="1323" height="354" key="GridCell.Tab.0.right" timestamp="1599140176646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="354" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599140176646" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1599101823014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599101823014" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1599178714788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599178714788" />
+    <state x="57" y="0" key="new project wizard" timestamp="1599121226161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599121226161" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599102139479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599102139479" />
+  </component>
+</project>
